@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href='XOXO.css'>
+</head>
+<body>
+
+<div id="game">
+    <h1>Naughts and Crosses</h1>
+
+    <p>
+    Player One is Crosses (X)
+        <br>
+    Player Two is Noughts (0)
+        <br>
+    </p>
+
+    <h3>Player One Goes First; Click On Any Box To Start:</h3>
+
+    <input type="text" id="a1" onclick="myfunc_3(); tictacfunc();" readonly>
+    <input type="text" id="a2" onclick="myfunc_4(); tictacfunc();" readonly>
+    <input type="text" id="a3" onclick="myfunc_5(); tictacfunc();" readonly>
+<br>
+    <input type="text" id="b1" onclick="myfunc_6(); tictacfunc();" readonly>
+    <input type="text" id="b2" onclick="myfunc_7(); tictacfunc();" readonly>
+    <input type="text" id="b3" onclick="myfunc_8(); tictacfunc();" readonly>
+<br>
+    <input type="text" id="c1" onclick="myfunc_9(); tictacfunc();" readonly>
+    <input type="text" id="c2" onclick="myfunc_10();tictacfunc();" readonly>
+    <input type="text" id="c3" onclick="myfunc_11();tictacfunc();" readonly>
+
+
+ <p id="turn"></p>
+ <p id="winner"></p>
+
+ <h3>Press the Button to Clear the Board:</h3>
+ <button type="button" ID="start" onclick="buttfunc()">NEW GAME</button>
+
+</div>    
+
+<script src="XOXO.js"></script>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+
+</body>
+</html>

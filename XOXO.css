@@ -1,0 +1,63 @@
+#game
+{
+    text-align: center;
+}
+
+h1
+{
+    color: blue;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p
+{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#winner
+{
+    color: red;
+}
+
+/*Button properties:*/
+#start
+{
+    box-sizing: border-box;
+    width: 200x;
+    height: 40px;
+    border: 1px solid green;
+    margin: auto;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*This sets up the grid and its properties:*/
+#a1, #a2, #a3, #b1, #b2,
+#b3, #c1, #c2, #c3 {
+    width: 80px;
+    height: 80px;
+    margin: 4px;
+    border: 3px solid black;
+    border-radius: 6px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#turn 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 20px;
+}
